@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "Read Image Test",
+      "setup": "javac TesterRunigram.java Runigram.java",
+      "run": "java TesterRunigram.java read",
+      "input": "",
+      "output":  "Testing Runigram.read...\nPASSED",
+      "comparison": "exact",
+      "timeout": 100,
+      "points": 16
+    },
+    {
+      "name": "Horizontal Flip Test",
+      "setup": "javac TesterRunigram.java Runigram.java",
+      "run": "java TesterRunigram.java horizontal",
+      "input": "",
+      "output":  "Testing Runigram.flippedHorizontally...\nPASSED",
+      "comparison": "exact",
+      "timeout": 100,
+      "points": 16
+    },
+    {
+      "name": "Vertical Flip Test",
+      "setup": "javac TesterRunigram.java Runigram.java",
+      "run": "java TesterRunigram.java vertical",
+      "input": "",
+      "output":  "Testing Runigram.flippedVertically...\nPASSED",
+      "comparison": "exact",
+      "timeout": 100,
+      "points": 16
+    },
+    {
+      "name": "Grayscaled Test",
+      "setup": "javac TesterRunigram.java Runigram.java",
+      "run": "java TesterRunigram.java grayscaled",
+      "input": "",
+      "output":  "Testing Runigram.grayScaled...\nPASSED",
+      "comparison": "exact",
+      "timeout": 100,
+      "points": 16
+    },
+    {
+      "name": "Grayscaled Test",
+      "setup": "javac TesterRunigram.java Runigram.java",
+      "run": "java TesterRunigram.java scaled",
+      "input": "",
+      "output":  "Testing Runigram.scaled...\nPASSED",
+      "comparison": "exact",
+      "timeout": 100,
+      "points": 16
+    },
+    {
+      "name": "Grayscaled Test",
+      "setup": "javac TesterRunigram.java Runigram.java",
+      "run": "java TesterRunigram.java blend",
+      "input": "",
+      "output":  "Testing Runigram.blend...\nPASSED",
+      "comparison": "exact",
+      "timeout": 100,
+      "points": 20
+    }
+  ]
+}
